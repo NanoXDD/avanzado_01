@@ -20,6 +20,8 @@ function App() {
     <Carta numero={8} tinta="🏍"mostrarCarta={mostrarCarta}/>
     <Carta numero={88} tinta="🐱‍🚀"mostrarCarta={mostrarCarta}/>
 
+
+
     <CartaProyecto
     ataque={999}
     nombre="Capitan peru"
@@ -29,9 +31,10 @@ function App() {
     numero={1}
     tipo="indigena"
     />
+   
+    </div>
 
       
-    </div>
   )
 }
 
