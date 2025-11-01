@@ -13,15 +13,16 @@ function App() {
     <div>
     <h1> mi primera app en react</h1>
     <p> Hecho por nano</p>
-    <p>dias 2 peruano</p>
-
+    <p>dias 3 peruano</p>
+{/* 
     <Carta numero={1} tinta="🐱" mostrarCarta={mostrarCarta}/>
     <Carta numero={5} tinta="🐱‍🏍"mostrarCarta={mostrarCarta}/>
     <Carta numero={8} tinta="🏍"mostrarCarta={mostrarCarta}/>
     <Carta numero={88} tinta="🐱‍🚀"mostrarCarta={mostrarCarta}/>
+    */}
 
 
-
+    <h2>POKEMON:</h2>
     <CartaProyecto
     ataque={999}
     nombre="Capitan peru"

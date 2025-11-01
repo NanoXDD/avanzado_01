@@ -6,6 +6,7 @@ type Props ={
     defensa: number;
     descripcion: string;
     imagen: string;
+    debilidad?: string;
 };
 
 function TarjetaDetalle({
@@ -16,6 +17,7 @@ function TarjetaDetalle({
     nombre,
     numero,
     tipo,
+    debilidad ="Desconocida",
 }: Props) {
     return(
         <div>
@@ -26,7 +28,8 @@ function TarjetaDetalle({
         <p>Tipo: {tipo}</p>
         <p>Ataque: {ataque}</p>
         <p>Defensa: {defensa}</p>
-        <p>{descripcion}</p>
+        <p>Descripcion: {descripcion}</p>
+        <p>Debilidad: {debilidad}</p>
         </div>
     );
 }
