@@ -20,7 +20,7 @@ function TarjetaDetalle({
     debilidad ="Desconocida",
 }: Props) {
     return(
-        <div>
+        <div className="border-solid border-purple-400 border-2 p-4 w-60">
             <h3>
             {nombre} (#{numero})
             </h3>
